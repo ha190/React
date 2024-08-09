@@ -8,12 +8,12 @@ import "./App.css";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Portifolio from "./components/Portifolio/Portifolio";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from './components/Home/Home';
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <Layout />,
