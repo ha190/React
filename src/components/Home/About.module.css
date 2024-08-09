@@ -1,0 +1,19 @@
+.HeadingAbout {
+    display: flex;
+    flex-direction: row;
+  }
+  .HeadingAbout:before, .HeadingAbout:after{
+    content: "";
+    width:70px;
+    height:3px;
+    background-color: white;
+    margin: auto;
+  }
+  .HeadingAbout:before {
+    margin-right: 10px
+  }
+  .HeadingAbout:after {
+    margin-left: 10px
+  }
+
+

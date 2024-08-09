@@ -1,0 +1,46 @@
+.contactHeading {
+    display: flex;
+    flex-direction: row;
+  }
+  .contactHeading:before, .contactHeading:after{
+    content: "";
+    width:70px;
+    height:3px;
+    background-color: #020617;
+    margin: auto;
+  }
+  .contactHeading:before {
+    margin-right: 10px
+  }
+  .contactHeading:after {
+    margin-left: 10px
+  }
+
+
+  .label{
+    position:absolute;
+    left:0px;
+    top:100%;
+    margin-top: 20px;
+    opacity:0%;
+    color:rgb(67, 61, 61);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.labelUP{
+  position:absolute;
+  left:0px;
+  top:-50px;
+  margin-top: 20px;
+  opacity:100%;
+  color:rgb(2, 2, 2);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
